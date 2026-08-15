@@ -1,23 +1,24 @@
-# Devops_projeto
-Implementação da cultura DevOps na empresa CodeFactory Solutions
+ # 🏷️ Devops_projeto
 
-# 🏷️ Nome do Projeto
-
-> Breve descrição do que o projeto é e qual problema ele resolve.
+> Esse projeto tem como finalidade desenvolver um gerenciador pessoal de tarefas, por meio da cultura Devops, dentra da empresa CodeFactory Solutions.
 
 ## 🚀 Tecnologias
 
 Esse projeto foi desenvolvido com as seguintes tecnologias:
 
-- Tecnologia 1
+- Python
 - Tecnologia 2
-- Tecnologia 3
+- Docker
+-
+-
 
 ## 💻 Funcionalidades
 
-- [ ] Funcionalidade A
-- [ ] Funcionalidade B
-- [ ] Funcionalidade C (Em desenvolvimento)
+- [ ] Atribuir tarefas 
+- [ ] excluir ou alterar informações diarias
+- [ ] Define prazos e lembretes
+- [ ] Estabelece prioridades
+- [ ] Acompanha o progresso
 
 ## 🛠️ Como rodar o projeto
 
