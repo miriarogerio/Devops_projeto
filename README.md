@@ -1,8 +1,10 @@
  # 🏷️ Devops_projeto
 
-> Esse projeto tem como finalidade desenvolver um gerenciador pessoal de tarefas, por meio da cultura Devops, dentra da empresa CodeFactory Solutions.
+> Esse projeto tem como finalidade desenvolver um gerenciador pessoal de tarefas, por meio da cultura Devops, dentro da empresa CodeFactory Solutions.
 
-## 🚀 Tecnologias
+## Licença
+
+## 🚀 Tecnologias Utilizadas
 
 Esse projeto foi desenvolvido com as seguintes tecnologias:
 
