@@ -10,11 +10,12 @@ Este projeto está licenciado sob a [Licença MIT](LICENSE).
 
 Esse projeto foi desenvolvido com as seguintes tecnologias:
 
-- Python
-- SQL
+- Python + FastAPI
+- MySQL
 - Docker
-- 
--
+- Kubernetes
+- GitHub
+
 
 ## 💻 Funcionalidades
 
@@ -27,7 +28,13 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 ## 🛠️ Como rodar o projeto
 
 ### Pré-requisitos
+Antes de começar, você vai precisar ter instalado em sua máquina as seguintes ferramentas:
+* [Git](https://git-scm.com) para baixar o repositório.
+* [MySQL](https://dev.mysql.com/downloads/) (versão 8+) ou outro banco de dados relacional rodando localmente.
 
+
+
+Além disso, é bom ter um editor para trabalhar com o código, como o [VSCode](https://code.visualstudio.com/)
 
 ### Rodando a Aplicação
 
