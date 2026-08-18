@@ -4,6 +4,8 @@
 
 ## Licença
 
+Este projeto está licenciado sob a [Licença MIT](LICENSE).
+
 ## 🚀 Tecnologias Utilizadas
 
 Esse projeto foi desenvolvido com as seguintes tecnologias:
