@@ -5,4 +5,4 @@ venv/
 *.db
 .pytest_cache/
 .vscode/
-.idea/
+.idea/*.log
