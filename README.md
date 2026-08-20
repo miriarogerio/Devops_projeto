@@ -15,6 +15,7 @@ PostgreSQL — banco de dados
 Docker / Docker Compose — containerização
 GitHub Actions — pipeline de integração contínua
 Pytest — testes automatizados
+VS Code 
 
 ## 💻 Funcionalidades
 
