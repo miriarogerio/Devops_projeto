@@ -15,6 +15,7 @@ PostgreSQL — banco de dados
 Docker / Docker Compose — containerização
 GitHub Actions — pipeline de integração contínua
 Pytest — testes automatizados
+VS Code 
 
 ## 💻 Funcionalidades
 
@@ -25,7 +26,9 @@ Pytest — testes automatizados
 - [ ] Acompanha o progresso
 
 
-📁 Estrutura de pastas
+## 📁 Estrutura de pastas
+
+```
 todo-api/
 ├── app/
 │   ├── __init__.py
@@ -41,6 +44,7 @@ todo-api/
 ├── docker-compose.yml
 ├── requirements.txt
 └── README.md
+```
 
 ## ⚙️ Instruções de instalação
 Opção 1 — Rodando com Docker (recomendado)
@@ -56,28 +60,43 @@ pip install -r requirements.txt
 python -m app.main
 Nesse caso, é necessário ter um PostgreSQL rodando localmente e ajustar a variável de ambiente DATABASE_URL no arquivo app/config.py.
 
+
 ## ▶️ Instruções de execução
+
 Com os containers rodando, use os endpoints abaixo (via Postman, Insomnia ou curl):
 
-Método	Rota	Descrição
-GET	/	Verifica se a API está no ar
-GET	/tasks	Lista todas as tarefas
-GET	/tasks/<id>	Busca uma tarefa específica
-POST	/tasks	Cria uma nova tarefa
-PUT	/tasks/<id>	Atualiza uma tarefa
-PATCH	/tasks/<id>/complete	Marca tarefa como concluída
-DELETE	/tasks/<id>	Remove uma tarefa
-Exemplo de criação de tarefa
+| Método | Rota                     | Descrição                     |
+|--------|---------------------------|--------------------------------|
+| GET    | `/`                        | Verifica se a API está no ar   |
+| GET    | `/tasks`                   | Lista todas as tarefas         |
+| GET    | `/tasks/<id>`               | Busca uma tarefa específica    |
+| POST   | `/tasks`                   | Cria uma nova tarefa           |
+| PUT    | `/tasks/<id>`               | Atualiza uma tarefa            |
+| PATCH  | `/tasks/<id>/complete`      | Marca tarefa como concluída    |
+| DELETE | `/tasks/<id>`               | Remove uma tarefa              |
+
+### Exemplo de criação de tarefa
+
+```bash
 curl -X POST http://localhost:5000/tasks \
   -H "Content-Type: application/json" \
   -d '{"title": "Estudar DevOps", "description": "Revisar branches e merges"}'
+```
+
 🧪 Rodando os testes
+
+```bash
 pytest -v
+```
+
+
 🐳 Por que utilizar containers neste projeto?
+
 O uso do Docker garante que qualquer novo integrante da equipe consiga rodar a aplicação e o banco de dados com um único comando, sem precisar instalar Python, PostgreSQL ou configurar variáveis manualmente. Isso resolve diretamente o problema relatado pela CodeFactory Solutions, em que novos colaboradores levavam muito tempo para configurar seus ambientes de desenvolvimento. Além disso, os containers garantem que o ambiente de desenvolvimento seja idêntico ao de produção, eliminando o clássico problema de "na minha máquina funciona".
 
 # 📄 Licença
-Este projeto está licenciado sob a licença MIT — veja o arquivo LICENSE para mais detalhes.
+Este projeto está licenciado sob a licença MIT — veja o arquivo [LICENSE](LICENSE) para
+mais detalhes.
 
 👥 Equipe
 
