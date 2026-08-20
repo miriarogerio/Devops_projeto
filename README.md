@@ -100,8 +100,8 @@ mais detalhes.
 
 👥 Equipe
 
-Bruno Sampaio Sobreira — RU: 5217388
-Guilherme Santos Silva — RU: 4603410
-Miria Rogerio Mangueira da Silva — RU: 5152333
+- Bruno Sampaio Sobreira — RU: 5217388
+- Guilherme Santos Silva — RU: 4603410
+- Miria Rogerio Mangueira da Silva — RU: 5152333
 
 
